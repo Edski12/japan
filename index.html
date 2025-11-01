@@ -7,17 +7,43 @@
     <title>Japan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed top-0 w-100 border-0 rounded-bottom-4"
-        style="background: rgba(255, 255, 255, 0.178); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.025); z-index: 1000;">
+        style="background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0, 0, 0, 0.1); z-index: 1000;">
         <div class="container-fluid">
             <a href="#" class="navbar-brand px-3 mx-2">
-                <img src="assets/Group 20.png" alt="Japan-logo">
+                <img src="assets/Group 20.png" alt="Japan-logo" style="height: 40px; border-color: black;">
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-semibold">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="#whyVisit">Why Visit</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="#mapJapan">Map</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
     <section class="position-relative overflow-hidden vh-100">
         <div class="position-absolute top-0 start-0 w-100 h-100">
             <iframe class="position-absolute top-50 start-50 translate-middle"
@@ -31,6 +57,9 @@
             <div class="text-center text-white px-3">
                 <h1 class="fw-bold mb-4 display-3 display-md-2 display-lg-1">Explore the beauty of <br
                         class="d-none d-md-inline">Japan</h1>
+                <a href="#" class="btn btn-danger rounded-pill btn-lg px-5 py-3">
+                    Explore Now <i class="bi bi-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -41,6 +70,67 @@
             tage
             wetter</a></div>
 
+
+    <div id="whyVisit" class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold text-danger mb-3">Why Visit Japan</h2>
+            <div class="mx-auto bg-danger" style="width: 60px; height: 3px;"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-building text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">Rich Culture</h4>
+                    <p class="text-muted">Experience centuries-old traditions, temples, and ceremonies that continue to
+                        thrive in modern Japan.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-cup-hot text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">World-Class Cuisine</h4>
+                    <p class="text-muted">From sushi to ramen, discover authentic flavors and the most Michelin-starred
+                        restaurants globally.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-train-front text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">Modern Infrastructure</h4>
+                    <p class="text-muted">Travel seamlessly with bullet trains, efficient public transport, and
+                        cutting-edge technology.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-tree text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">Natural Beauty</h4>
+                    <p class="text-muted">From cherry blossoms to autumn leaves, experience stunning seasonal
+                        transformations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-shield-check text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">Safe & Clean</h4>
+                    <p class="text-muted">One of the world's safest countries with impeccable cleanliness and
+                        hospitality.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center p-4 h-100">
+                    <i class="bi bi-buildings text-danger mb-3" style="font-size: 3rem;"></i>
+                    <h4 class="fw-bold mb-3">Urban Wonders</h4>
+                    <p class="text-muted">Explore futuristic cities that perfectly blend tradition with innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <h2 class="display-5 fw-bold text-danger mt-3 mb-2" id="destinations">Destinations</h2>
+        <div class="mx-auto bg-danger mb-4" style="width: 60px; height: 3px;"></div>
+    </div>
     <div class="container pt-5 my-5">
         <div class="row">
             <div class="col-12 col-md-6 col-xl-4 px-2 my-3">
@@ -57,7 +147,7 @@
                             centuries.</p>
                         <a href="https://www.japan-guide.com/e/e2172.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
@@ -75,7 +165,7 @@
                             Islands are also part of Tokyo.</p>
                         <a href="https://www.japan-guide.com/e/e2164.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
@@ -93,7 +183,7 @@
                             inhabitants and a modern face.</p>
                         <a href="https://www.japan-guide.com/e/e2158.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
@@ -113,7 +203,7 @@
                             under the trees.</p>
                         <a href="https://www.japan-guide.com/e/e2011.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
@@ -132,7 +222,7 @@
                             specialized in a single type of dish, while others offer a variety of dishes.</p>
                         <a href="https://www.japan-guide.com/e/e620.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
@@ -149,13 +239,57 @@
                             with them.</p>
                         <a href="https://www.japan-guide.com/e/e2292.html"
                             class="d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary">Explore More</button>
+                            <button class="btn btn-danger">Explore More</button>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section id="mapJapan" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold text-danger mb-3">Map of Japan</h2>
+            <div class="mx-auto bg-danger mb-4" style="width: 60px; height: 3px;"></div>
+            <p class="text-muted mb-4">Explore Japan's geography — from the northern island of Hokkaido to the southern
+                Okinawa archipelago.</p>
+            <div class="ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4154684.0248831776!2d134.75008286922065!3d36.20482427986567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000000000000001%3A0x2c74b9b4b64ab5ab!2sJapan!5e0!3m2!1sen!2sph!4v1730450000000!5m2!1sen!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">About Japan</h5>
+                    <p class="text-white-50">Discover the land of the rising sun, where ancient traditions meet modern
+                        innovation. Experience the beauty, culture, and hospitality of Japan.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#whyVisit" class="text-white-50 text-decoration-none">Why Visit</a>
+                        </li>
+                        <li class="mb-2"><a href="#destinations"
+                                class="text-white-50 text-decoration-none">Destinations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-white-50 mb-0">&copy; Website created by: Edcel Esquivel from BSIT 3-1 | Submitted
+                        to: Sir Christopher De Claro</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script async src="https://app3.weatherwidget.org/js/?id=ww_bdd36734dfd78"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
